@@ -1,0 +1,105 @@
+/* Coolors Exported Palette - coolors.co/ffffff-00171f-003459-007ea7-00a8e8 */
+/* RGB */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+h1 {
+  font-family: "Alatsi", sans-serif;
+}
+
+h2 {
+  font-family: "Hind Madurai", sans-serif;
+}
+
+h3 {
+  font-family: "Rasa", serif;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40%;
+  margin-left: 2%;
+  color: #00171f;
+  background: white;
+}
+
+@media (min-width: 950px) {
+  .container {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+}
+
+.container p {
+  justify-self: center;
+  width: 100%;
+}
+
+.container h1 {
+  background: white;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #00171f;
+  margin: 5px;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px #b3b3b3;
+  text-align: center;
+}
+
+.container h2 {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.container h3 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #00171f;
+  margin: 5px;
+  font-size: 1.2rem;
+}
+
+.container h3 a {
+  color: #00171f;
+}
+
+.container h6 {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #00171f;
+  margin: 5px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}

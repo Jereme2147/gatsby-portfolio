@@ -1,0 +1,104 @@
+@import './reset.scss';
+
+.container {
+    width: 95%;
+    // height: 100vh; //remove
+    margin-top: 40%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    img {
+        max-width: 100%;
+        border-radius: 20%;
+        margin-top: 20px;
+        position: relative;
+    }
+    @include desktop() {
+        margin-top: 25%;
+        width: 80%;
+        margin-left: 10%;
+        img {
+            max-width: 80%;
+        }
+    }
+
+}
+.contact {
+    width: 100%;
+    margin: 20px 5px;
+    border-top: 1px solid $blue;
+    background: $white;
+    a {
+        
+        // margin: 15px 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-shadow: 1px 1px 2px $white;
+    }
+    h2 {
+        margin: 10px 0;
+        font-size: 1.5rem;
+        // color: $black;
+        color: $blue;
+        @include desktop() {
+            font-size: 2rem;
+        }
+    }
+    ul {
+        list-style-type: none;
+    }
+    p {
+        color: $blue;
+        font-size: 1.4rem;
+        border-top: 2px solid $blue;
+        ul li a {
+            color: $blue;
+        }
+        ul {
+            margin: 10px 0;
+            li {
+                margin-left: 5px;
+            }
+        }
+        @include desktop() {
+            font-size: 2rem;
+            border-top: 5px solid $blue;
+        }
+    }
+}
+
+.title {
+    width: 100%;
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: $white;
+        text-shadow: 2px 2px 1px $black;
+    }
+    @include desktop() {
+        h1 {
+            font-size:3rem;
+            color: $darkBlue;
+            text-shadow: 2px 2px 1px $white;
+        }
+        
+    }
+}
+.services {
+    background: $white;
+    p {
+        color: $darkBlue;
+        font-size: 1.4rem;
+        margin: 8px 0;
+        border-left: 6px solid $darkBlue;
+        padding-left: 5px;
+    }
+    @include desktop() {
+        p {
+            padding: 20px;
+            margin: 15px 0;
+        }
+    }
+}

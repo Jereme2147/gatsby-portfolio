@@ -1,0 +1,51 @@
+/* Coolors Exported Palette - coolors.co/ffffff-00171f-003459-007ea7-00a8e8 */
+/* RGB */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+.logo {
+  background: #00171f;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 7rem;
+}
+
+@media (min-width: 950px) {
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.logo h1 {
+  color: white;
+}

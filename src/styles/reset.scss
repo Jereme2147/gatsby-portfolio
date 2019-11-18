@@ -1,0 +1,70 @@
+/* Coolors Exported Palette - coolors.co/ffffff-00171f-003459-007ea7-00a8e8 */
+/* RGB */
+$white: rgba(255, 255, 255, 1);
+$black: rgba(0, 23, 31, 1);
+$darkBlue: rgba(0, 52, 89, 1);
+$blue: rgba(0, 126, 167, 1);
+$lightBlue: rgba(0, 168, 232, 1);
+$title: 'Alatsi', sans-serif;
+$menu: 'Hind Madurai', sans-serif;
+$body: 'Rasa', serif;
+@mixin tablet {
+    @media (min-width: 600px) and (max-width: 949px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: 950px) {
+        // @media (min-width: 1061px) {
+        @content;
+    }
+}
+@mixin small-desktop {
+    @media (min-width: 950px) and (max-width: 1060px) {
+        @content;
+    }
+}
+@mixin large-desktop {
+    @media (min-width: 1300px) {
+        @content;
+    }
+}
+@mixin tiny-phone {
+    @media (max-width: 350px) {
+        @content;
+    }
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+h1 {
+    font-family: $title;
+}
+h2 {
+    font-family: $menu;
+}
+h3 {
+    font-family: $body;
+}
