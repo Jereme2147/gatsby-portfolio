@@ -9,7 +9,7 @@ const CardHolder = () => {
 
 const data = useStaticQuery(graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark (sort: {fields: frontmatter___date, order: DESC}){
     nodes {
       frontmatter {
         featuredImage {

@@ -15,13 +15,18 @@
         width: 100%;
         height: 50vh;
         color: $black;
+        list-style-type: none;
         li {
-            width: 50%;
+            width: 100%;
             margin: 20px 0;
+            text-align: center;
             a{
                 color: $black;
                 font-size: 2.5rem;
                 text-decoration: none;
+                font-family: $menu;
+                padding: 10px;
+                
             }
         }
     }

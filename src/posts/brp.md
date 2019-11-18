@@ -4,7 +4,7 @@ date: "2019-11-3"
 featuredImage: brpDesktop.jpg
 ---
 # -Blue Ridge Propane-
-### [Link to the original article](https://www.blueridgepropanenc.net/"Link to article")
+### [Link to the original article](https://www.blueridgepropanenc.net/)
 ## Desktop screenshot
 ![screenshot](./brpDesktop.jpg)
 ### This is my favorite simple website creation. 

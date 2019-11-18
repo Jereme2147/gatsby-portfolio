@@ -37,36 +37,18 @@ h3 {
   font-family: "Rasa", serif;
 }
 
-.menuDiv {
+.container {
+  position: relative;
   position: fixed;
-  z-index: 99;
-  top: 20%;
+  color: white;
+  top: 0;
   left: 0;
-  width: 100vw;
-  background: #007ea7;
+  padding-left: 10px;
 }
 
-.menuDiv ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 50vh;
-  color: #00171f;
-  list-style-type: none;
-}
-
-.menuDiv ul li {
-  width: 100%;
-  margin: 20px 0;
-  text-align: center;
-}
-
-.menuDiv ul li a {
-  color: #00171f;
-  font-size: 2.5rem;
-  text-decoration: none;
-  font-family: "Hind Madurai", sans-serif;
-  padding: 10px;
+@media (min-width: 950px) {
+  .container {
+    left: 15%;
+    font-size: 1.5rem;
+  }
 }

@@ -4,7 +4,7 @@ date: "2019-11-4"
 featuredImage: codewodDesktop.jpg
 ---
 # -Code-Wod-
-### [Link to the original article](https://www.code-wod.com/"Link to article")
+### [Link to the original article](https://www.code-wod.com/)
 ## Desktop screenshot
 ![screenshot](./codewodDesktop.jpg)
 ### Full custom WordPress theme. Features WordPress as a headless CMS (content management system).  The theme is constructed entirely from scratch.  Code-wod makes use of 3 different custom post types.  The blog is the primary for daily updated workouts.  

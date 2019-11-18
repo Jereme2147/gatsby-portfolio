@@ -3,19 +3,22 @@ import { Link } from 'gatsby'
 
 const Menu = () => {
     const activeStyle = {
-        borderLeft: '2px solid rgba(255, 255, 255, 1)',
-        borderRight: '2px solid rgba(255, 255, 255, 1)',
-        margin: '0'
+       borderTop: '2px solid #ffffff'
 
     }
     return (
         <ul>
-            <li>
-                <Link to={'/'} activeStyle={activeStyle}>HOME</Link>
-            </li>
-            <li>
-                <Link to={'/info'} activeStyle={activeStyle}>INFORMATION</Link>
-            </li>
+            <h2>
+                <li>
+                    <Link to={'/'} activeStyle={activeStyle}>HOME</Link>
+                </li>
+            </h2>
+            <h2>
+                <li>
+                    <Link to={'/info'} activeStyle={activeStyle}>INFORMATION</Link>
+                </li>
+            </h2>
+            
             {/* <li>
                 <Link to={'/contact'} activeStyle={activeStyle}>CONTACT</Link>
             </li> */}

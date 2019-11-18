@@ -3,8 +3,8 @@ title: "Brushy Fork Environmental Consulting"
 date: "2019-11-6"
 featuredImage: bfecDesktop.jpg
 ---
-# -Code-Wod-
-### [Link to the original article](http://www.bfec.org/"Link to article")
+# -Brushy Fork Environmental Consulting-
+### [Link to the original article](http://www.bfec.org/)
 ## Desktop screenshot
 ![screenshot](./bfecDesktop.jpg)
 ### Full custom WordPress theme. Features WordPress as a headless CMS (content management system).  The theme is constructed entirely from scratch. There are multiple custom post types.

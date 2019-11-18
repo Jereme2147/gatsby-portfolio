@@ -18,9 +18,9 @@ const Info = () => {
                     </img>
                     <p>Social Media Contacts
                         <ul>
-                            <li><a href="#">-Instagram-</a></li>
-                            <li><a href="#">-Twitter-</a></li>
-                            <li><a href="#">-GitHub-</a></li>
+                            <li><a href="https://www.instagram.com/jd2147/">-Instagram-</a></li>
+                            <li><a href="https://twitter.com/JD2147">-Twitter-</a></li>
+                            <li><a href="https://github.com/Jereme2147">-GitHub-</a></li>
                         </ul>
                     </p>
                 </div>
